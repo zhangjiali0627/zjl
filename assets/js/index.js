@@ -139,3 +139,20 @@ $(".moreziliao").click(function(){
 		zlflag=true;
 	}
 })
+
+
+// 按需加载
+var foot1=$( ".foot1");
+	document.onscroll=function(){
+	var tops=document.body.scrollTop||document.documentElement.scrollTop;
+	var ch=document.documentElement.clientHeight;
+		for(var i=0;i<foot1.length;i++){
+			if(foot1[i].offsetTop<=tops+ch){
+				var imgs=$("img",foot1[i]);
+				for(var j=0;j<imgs.length;j++){
+					var src=imgs[j].getAttribute("data-src");
+					imgs[j].src=src;
+				}
+			}
+		}
+	}
