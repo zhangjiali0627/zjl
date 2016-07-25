@@ -1323,6 +1323,10 @@ div#image-gallery-caption {
     figure.effect-oscar h5 {
         margin: 1.3em 0 0;
     }
+    .copyright{
+    	font-size:0.7rem;
+    	letter-spacing: 1px;
+    }
 }
 @media(max-width:480px){
     .gallery {
@@ -1365,7 +1369,7 @@ div#image-gallery-caption {
         font-size: 1.2em;
     }
     .copyright{
-    	font-size:0.9rem;
+    	font-size:0.8rem;
     	letter-spacing: 1px;
     }
 }
@@ -1397,6 +1401,10 @@ div#image-gallery-caption {
     }
     .grid-gallery1, .grid-gallery,.gallery-grid1 {
         margin-top: 1em;
+    }
+    .copyright{
+    	font-size:0.7rem;
+    	letter-spacing: 1px;
     }
 }
 
