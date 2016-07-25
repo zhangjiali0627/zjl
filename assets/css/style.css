@@ -1364,6 +1364,10 @@ div#image-gallery-caption {
     .gallery-grid figure h5 {
         font-size: 1.2em;
     }
+    .copyright{
+    	font-size:0.9rem;
+    	letter-spacing: 1px;
+    }
 }
 @media(max-width:320px){
     .gallery {
